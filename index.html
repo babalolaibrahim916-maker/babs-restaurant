@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Babs Restaurant</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">
+    <h2>Babs Restaurant</h2>
+</div>
+
+<div class="menu-toggle">
+    <i class="fas fa-bars"></i>
+</div>
+<div class="close-menu">
+    x
+</div>
+
+<ul class="nav-links">
+<li><a href="#home">Home</a></li>
+<li><a href="#menu">Menu</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
+<section id="home" class="hero">
+
+    <div class="hero-text">
+
+        <h1>Fresh Food Served Every Day</h1>
+
+        <p>
+            Enjoy delicious meals prepared by our experienced chefs using the
+            freshest ingredients. Fast delivery and excellent customer service.
+        </p>
+
+        <a href="#" class="btn">Order Now</a>
+
+    </div>
+
+
+</section>
+<section id="menu" class="menu">
+
+    <h2>Our Popular Dishes</h2>
+
+    <div class="menu-container">
+
+        <div class="card">
+            <img src="image/burger.jpg" alt="Burger">
+            <h3>Classic Burger</h3>
+            <p>Juicy beef burger with fresh vegetables.</p>
+            <span>₦6,500</span><br>
+            <a href="#"
+class="order-btn"
+data-name="Classic Burger"
+data-price="6500">
+Order Now
+</a>
+        </div>
+
+        <div class="card">
+            <img src="image/pizza.jpg" alt="Pizza">
+            <h3>Pepperoni Pizza</h3>
+            <p>Cheesy pizza with pepperoni toppings.</p>
+            <span>₦9,000</span><br>
+            <a href="#"
+class="order-btn"
+data-name="Pizza"
+data-price="9000">
+Order Now
+</a>
+        </div>
+
+        <div class="card">
+            <img src="image/spaghetti.jpg" alt="Spaghetti">
+            <h3>Spaghetti</h3>
+            <p>Delicious spaghetti served with meatballs.</p>
+            <span>₦5,500</span><br>
+           <a href="#"
+class="order-btn"
+data-name="Spaghetti"
+data-price="5500">
+Order Now
+</a>
+        </div>
+
+    </div>
+
+</section>
+<section class="cart">
+
+    <h2>Your Order</h2>
+
+    <div id="cart-items">
+        <p>Your cart is empty.</p>
+    </div>
+
+    <h3>Total: ₦<span id="total-price">0</span></h3>
+
+   <div class="cart-buttons">
+    <button id="clear-cart-btn">Clear Cart</button>
+    <button id="checkout-btn">Checkout</button>
+</div>
+
+</section>
+<section id="about" class="why-us">
+
+    <h2>Why Choose Us?</h2>
+
+    <div class="why-container">
+
+        <div class="why-card">
+            <h3>🍴 Fresh Ingredients</h3>
+            <p>We prepare every meal using fresh and high-quality ingredients.</p>
+        </div>
+
+        <div class="why-card">
+            <h3>🚚 Fast Delivery</h3>
+            <p>Your food is delivered quickly while it's still hot and delicious.</p>
+        </div>
+
+        <div class="why-card">
+            <h3>👨‍🍳 Expert Chefs</h3>
+            <p>Our experienced chefs prepare meals that keep customers coming back.</p>
+        </div>
+
+    </div>
+
+</section>
+<section class="chef">
+
+    <div class="chef-image">
+        <img src="image/chef.jpg" alt="Chef">
+    </div>
+
+    <div class="chef-text">
+        <h2>Meet Our Head Chef</h2>
+
+        <p>
+            Our award-winning chef has over 15 years of experience creating
+            delicious meals with passion and creativity.
+        </p>
+
+        <button>Read More</button>
+
+    </div>
+
+</section>
+<section class="reviews">
+
+    <h2>What Our Customers Say</h2>
+
+    <div class="review-container">
+
+        <div class="review-card">
+            <h3>⭐⭐⭐⭐⭐</h3>
+            <p>"The food was amazing! I'll definitely come back."</p>
+            <h4>- Sarah Johnson</h4>
+        </div>
+
+        <div class="review-card">
+            <h3>⭐⭐⭐⭐⭐</h3>
+            <p>"Excellent customer service and delicious meals."</p>
+            <h4>- Michael James</h4>
+        </div>
+
+        <div class="review-card">
+            <h3>⭐⭐⭐⭐⭐</h3>
+            <p>"One of the best restaurants I've ever visited."</p>
+            <h4>- David Wilson</h4>
+        </div>
+
+    </div>
+
+</section>
+ <section id="gallery" class="gallery">
+
+    <h2>Our Food Gallery</h2>
+
+<p class="gallery-text">
+    Explore some of our delicious meals prepared with fresh ingredients and served with love.
+</p>
+
+    <div class="gallery-container">
+
+        <img src="image/burger.jpg" alt="Burger">
+        <img src="image/pizza.jpg" alt="Pizza">
+        <img src="image/spaghetti.jpg" alt="Spaghetti">
+        <img src="image/chef.jpg" alt="Chef">
+
+    </div>
+
+</section>
+<section id="contact" class="contact">
+
+    <h2>Contact Us</h2>
+
+    <div class="contact-container">
+
+        <div class="contact-info">
+            <h3>Get In Touch</h3>
+
+            <p><i class="fas fa-map-marker-alt"></i> 12 Restaurant Street, Port-harcourt, Nigeria</p>
+
+            <p><i class="fas fa-phone"></i> +234 903 5751 191</p>
+
+            <p><i class="fas fa-envelope"></i> info@babsrestaurant.com</p>
+
+            <p><i class="fas fa-clock"></i> Mon - Sun: 8:00 AM - 10:00 PM</p>
+        </div>
+
+        <form class="contact-form">
+
+            <input type="text" placeholder="Your Name">
+
+            <input type="email" placeholder="Your Email">
+
+            <textarea placeholder="Your Message"></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+    </div>
+
+</section>
+<footer id="contact">
+
+    <div class="footer-container">
+
+        <div class="footer-logo">
+            <h2>Babs Restaurant</h2>
+
+            <p>
+                Serving delicious meals made with fresh ingredients and passion.
+                Your satisfaction is our priority.
+            </p>
+        </div>
+
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-contact">
+            <h3>Contact Us</h3>
+
+            <p><i class="fas fa-map-marker-alt"></i> Port Harcourt, Rivers State, Nigeria</p>
+
+            <p><i class="fas fa-phone"></i> +234 XXX XXX XXXX</p>
+
+            <p><i class="fas fa-envelope"></i> info@babsrestaurant.com</p>
+
+            <p><i class="fas fa-clock"></i> Mon – Sun: 8:00 AM – 10:00 PM</p>
+        </div>
+
+        <div class="footer-social">
+            <h3>Follow Us</h3>
+
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+            <a href="#"><i class="fab fa-instagram"></i></a>
+
+            <a href="#"><i class="fab fa-x-twitter"></i></a>
+
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <p class="copyright">
+        © 2026 Babs Restaurant. All Rights Reserved.
+    </p>
+
+</footer>
+<button id="topBtn">
+    <i class="fas fa-arrow-up"></i>
+</button>
+<div class="lightbox" id="lightbox">
+    <span class="close-lightbox">&times;</span>
+    <img id="lightbox-img" src="" alt="Food Image">
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
